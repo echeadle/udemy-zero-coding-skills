@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .quote-box {
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            max-width: 600px;
+            text-align: center;
+        }
+        .quote-text {
+            font-size: 1.5rem;
+            font-style: italic;
+            color: #343a40;
+        }
+        .quote-author {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #6c757d;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="quote-box">
+        <div class="quote-text">"{{ quote.split(' - ')[0] }}"</div>
+        <div class="quote-author">- {{ quote.split(' - ')[1] }}</div>
+    </div>
+</body>
+</html>

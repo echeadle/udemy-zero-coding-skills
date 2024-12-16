@@ -30,3 +30,15 @@ All those folders should be inside a folder named "all".
 
 Part 3
 Write me a python script for that.
+
+Follow up questions:
+
+Question:
+I want to create 10 text files. Each text file should have as name the current data. Write me a python script for that.
+
+Follow up Question:
+Part 1: what you want it to do.
+I want the filenames to be in the format YYYY.MM.DD-n
+and  put in a folder named files2
+Part2: Tell it to rewrite
+ Rewrite the scipt.
