@@ -15,3 +15,6 @@ try:
         print("The 'TG' column does not exist in the provided CSV file.")
 except FileNotFoundError:
     print("The file 'stockholm_updated.csv' was not found in the current directory.")
+
+2412160040015019
+7060786274
